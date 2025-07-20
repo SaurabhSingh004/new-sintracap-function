@@ -1,0 +1,17 @@
+{
+    "bindings": [
+      {
+        "authLevel": "anonymous",
+        "type": "httpTrigger",
+        "direction": "in",
+        "name": "req",
+        "methods": ["post", "delete", "options"],
+        "route": "users/documents/delete-request"
+      },
+      {
+        "type": "http",
+        "direction": "out",
+        "name": "res"
+      }
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+  "name": "sintracap-auth-functions",
+  "version": "1.0.0",
+  "description": "Azure Functions for SintraCap Authentication",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.27.0",
+    "axios": "^1.9.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^3.0.2",
+    "cheerio": "^1.0.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^7.0.3",
+    "parse-multipart": "^1.0.4",
+    "stream": "^0.0.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.0.5198"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
