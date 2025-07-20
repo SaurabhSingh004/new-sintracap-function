@@ -82,7 +82,7 @@ async function processContent(content, role) {
       },
       {
         headers: {
-          'api-key': process.env.OPENAI_API_KEY || '3JN3Z5F5zRDcjw0TMqxa6Zpj3huhFAK4M0R6Fwn8ODz0NcRpaQFpJQQJ99BEACYeBjFXJ3w3AAABACOGZnwM',
+          'api-key': process.env.OPENAI_API_KEY,
           'Content-Type': 'application/json'
         }
       }
